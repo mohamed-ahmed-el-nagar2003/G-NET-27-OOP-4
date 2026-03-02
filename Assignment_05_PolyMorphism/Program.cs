@@ -18,6 +18,14 @@
 
             #endregion
 
+            #region Q_02
+            //Q2 :  What is the difference between method overloading and method overriding?
+            /*
+              Overloading  : Same method name, different parameter lists or parameter type  — within the same class. Resolved at compile time.  
+              overriding   : Derived class overrides a virtual method from the base class using the override keyword.  Resolved at run time
+            */
+            #endregion
+
             #endregion
         }
     }
