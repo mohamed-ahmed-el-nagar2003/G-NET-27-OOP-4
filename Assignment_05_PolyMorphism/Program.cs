@@ -1,4 +1,6 @@
-﻿namespace Assignment_05_PolyMorphism
+﻿using Assignment_04_PolyMorphism;
+
+namespace Assignment_05_PolyMorphism
 {
     internal class Program
     {
@@ -35,6 +37,53 @@
             #endregion
 
             #endregion
+
+            #region Part_02 Cinema_System
+
+            //Cinema cinema01 = new Cinema("City");
+            //Console.WriteLine("===========================  Open Cinema  ==================================");
+            //cinema01.Opencinem();
+
+            //StandardTicket ST01 = new StandardTicket("A15", "Zaky Chann", 200);
+
+            //VipTicket VT01 = new VipTicket(true, "Zaky Chann", 350);
+
+            //IMAXTicket IMAXT01 = new IMAXTicket("Harly", 400, true);
+
+            //IMAXT01.SetPrice(400 , 1.5m);
+            //IMAXT01.SetPrice(520);
+
+            //cinema01.AddTicket(ST01);
+            //cinema01.AddTicket(VT01);
+            //cinema01.AddTicket(IMAXT01);
+            
+
+            //Console.WriteLine("===========================  Print All Tickets ==================================");
+            //cinema01.PrintallTickets();
+
+            //Console.WriteLine("===========================  Print Ticket Use Process() Method ==================================");
+            //ProcessTicket(VT01);
+
+            //Console.WriteLine("===========================  Close Cinema ==================================");
+            //cinema01.CloseCinema();
+
+          
+
+            #endregion
         }
+
+        //           Process Ticket
+        //public static void ProcessTicket(Ticket t)
+        //{
+        //    if (t != null)
+        //    {
+        //        Console.WriteLine($"{t.PrintTicket()}");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine($"Ticket is Null ");
+        //    }
+
+        //}
     }
 }
